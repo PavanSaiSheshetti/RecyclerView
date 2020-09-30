@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#c2c2c2">
+
+    <Button
+        android:layout_width="322dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/back"
+        android:text="Inspection Tool"
+        android:textColor="#ffffff"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_pre"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/backedittext"
+        android:text="Pre-Service Inspection"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:id="@+id/btn_ord"
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/backedittext"
+        android:text="Order Flow"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+    <Button
+        android:layout_width="347dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/backedittext"
+        android:text="Post-Service Inspection"
+        android:textSize="20sp"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>

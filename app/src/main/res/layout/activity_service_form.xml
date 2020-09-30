@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service_form"
+    android:background="#c2c2c2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+
+        <Button
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:text="Start Inspection"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/edittext_number"
+                android:layout_width="178dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/backedittext"
+                android:elevation="5dp"
+                android:hint="Car Number"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                tools:ignore="HardcodedText,TextFields"
+                android:autofillHints="Car Number">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/edittext_car"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/backedittext"
+                android:elevation="5dp"
+                android:hint="Car"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                tools:ignore="HardcodedText,TextFields"
+                android:autofillHints="Car">
+
+            </EditText>
+        </LinearLayout>
+        <EditText
+            android:id="@+id/edittext_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Date of Pickup"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="Date of Pickup" />
+
+        <EditText
+            android:id="@+id/edittext_additional_problem"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Additional Problems "
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="Additional Problems" />
+        <EditText
+            android:id="@+id/edittext_odometer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Odometer"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Odometer"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/edittext_fuel_reading"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Fuel Reading"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Fuel Reading"
+            tools:ignore="HardcodedText,TextFields" />
+        <EditText
+            android:id="@+id/edittext_fuel_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Fuel Type"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText,TextFields" />
+
+
+        <EditText
+            android:id="@+id/edittext_belongings"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Belongings in car"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Belongings in car"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <EditText
+            android:id="@+id/edittext_dents"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Dents/Scratches in car"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Dents/Scratches in car"
+            tools:ignore="HardcodedText,TextFields" />
+        <EditText
+            android:id="@+id/edittext_estimate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Estimate"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Estimate"
+            tools:ignore="HardcodedText,TextFields" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="27dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:hint="Upload Photos"
+            android:textAlignment="center"
+            android:autofillHints="Upload Photos"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imagebtn_front"
+                    android:layout_width="100dp"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textview_front"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="FRONT"
+                    android:textColor="#000000"
+                    tools:ignore="HardcodedText"/>
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imagebtn_rear"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textview_rear"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="REAR"
+                    android:textColor="#000000"
+                    tools:ignore="HardcodedText" />
+
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imagebtn_rtside"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textview_rtside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:textColor="#000000"
+                    android:text="RIGHT SIDE"
+                    tools:ignore="HardcodedText">
+                </TextView>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imagebtn_ltside"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textview_ltside"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="LEFT SIDE"
+                    android:textColor="#000000"
+                    tools:ignore="HardcodedText" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imagebtn_odofuel"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textview_odofuel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="ODOFUEL"
+                    android:textColor="#000000"
+                    tools:ignore="HardcodedText" />
+            </FrameLayout>
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageButton
+                    android:id="@+id/imagebtn_shield"
+                    android:layout_width="100dp"
+                    android:layout_height="88dp"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="15dp"
+                    android:background="#ffffff"
+                    android:contentDescription="TODO"
+                    tools:ignore="ContentDescription,HardcodedText" />
+
+                <TextView
+                    android:id="@+id/textview_shield"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="W/SHIELD"
+                    android:textColor="#000000"
+                    tools:ignore="HardcodedText" />
+            </FrameLayout>
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/tyrecondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Tyres Condition"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Tyres Condition"
+            tools:ignore="HardcodedText,TextFields" />
+        <EditText
+            android:id="@+id/paintcondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Overall Paint Condition"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Overall Paint Condition"
+            tools:ignore="HardcodedText,TextFields" />
+        <EditText
+            android:id="@+id/engineoilcondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Engine Oil Condition"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Engine Oil Condition"
+            tools:ignore="HardcodedText,TextFields" />
+        <EditText
+            android:id="@+id/coolantcondition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Coolant Condition"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Coolant Condition"
+            tools:ignore="TextFields" />
+        <EditText
+            android:id="@+id/chklist"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Check List of items"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            android:autofillHints="Check List of items"
+            tools:ignore="HardcodedText,TextFields" />
+        <EditText
+            android:id="@+id/inspectedby"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Inspected By"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="Inspected By" />
+        <EditText
+            android:id="@+id/pickupexecutive"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Pickup Executive"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="Pickup Executive" />
+        <EditText
+            android:id="@+id/signature"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/backedittext"
+            android:elevation="5dp"
+            android:layout_marginEnd="27dp"
+            android:hint="Customer Signature"
+            android:textAlignment="center"
+            android:textColor="#000000"
+            android:textColorHint="#000000"
+            tools:ignore="HardcodedText,TextFields"
+            android:autofillHints="Customer Signature" />
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save"
+            android:textColor="#ffffff"
+            android:background="@drawable/back"
+            android:layout_gravity="center"
+            tools:ignore="HardcodedText">
+
+        </Button>
+    </LinearLayout>
+</ScrollView>

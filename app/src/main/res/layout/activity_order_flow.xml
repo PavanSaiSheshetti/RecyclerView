@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAF8F1"
+    tools:context=".Order_flow">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="3dp">
+
+
+        <Button
+            android:layout_width="322dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            android:text="Order Progress Flow"
+            android:textColor="#ffffff"
+            android:textSize="20sp"
+            tools:ignore="HardcodedText" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <EditText
+                android:id="@+id/edittext_number"
+                android:layout_width="176dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints="Car Number"
+                android:background="@drawable/backedittext"
+                android:hint="Car Number"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                tools:ignore="HardcodedText,TextFields"
+                android:layout_marginLeft="15dp"
+                android:gravity="center_horizontal">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/edittext_car"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="15dp"
+                android:autofillHints="Car"
+                android:background="@drawable/backedittext"
+                android:hint="Car"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textColorHint="#000000"
+                tools:ignore="HardcodedText,TextFields"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_horizontal">
+
+            </EditText>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch4"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:elevation="5dp"
+                android:shadowColor="#FFFFFF"
+                android:text="Call customer and confirm time and location"
+                android:textSize="18sp"
+                android:thumbTint="#E53935"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch5"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Reach location,meet and greet customer"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Listen to the problems and note them"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch7"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Start the inspection"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch8"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Collect car and reach garage"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch9"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Take mechanic input"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch10"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Buy parts and start the work,Note parts"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch11"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="complete the work and get car cleaned"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch12"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Upload the invoice and confirm delivery"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch13"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Post service inspection"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch14"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Deliver and take feedback on work"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Update invoice status"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Switch
+                android:id="@+id/switch16"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="25dp"
+                android:layout_weight="1"
+                android:text="Thank you and feedback link to customer"
+                android:textColor="#000000"
+                android:textSize="18sp"
+                tools:ignore="HardcodedText,UseSwitchCompatOrMaterialXml"
+                android:layout_marginLeft="20dp" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/back"
+            android:text="Save"
+            android:textColor="#ffffff"
+            tools:ignore="HardcodedText">
+        </Button>
+    </LinearLayout>
+</ScrollView>
